@@ -18,7 +18,7 @@ public class TCPServer {
             DataInputStream dataInputStream=new DataInputStream(connection.getInputStream());
             byte[] arr=readMessage(dataInputStream);
             System.out.println("message length ;" + arr.length);
-            Utility.writeBytes("/Users/Yasin/Desktop/Yasin.jpeg",arr);
+            Utility.writeBytes("/Users/Desktop/Akif.jpeg",arr);
 
 
 
